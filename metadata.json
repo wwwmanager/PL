@@ -1,0 +1,5 @@
+{
+  "name": "Путевые листы",
+  "description": "A comprehensive web application for managing vehicle waybills, drivers, and reports. It features an AI-powered route generator to streamline dispatcher workflows.",
+  "requestFramePermissions": []
+}

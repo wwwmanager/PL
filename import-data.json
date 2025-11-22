@@ -1,0 +1,152 @@
+
+{
+  "meta": {
+    "app": "waybill-app",
+    "formatVersion": 2,
+    "createdAt": "2024-10-27T10:00:00.000Z",
+    "appVersion": "1.0.0",
+    "keys": [
+      "organizations",
+      "employees",
+      "fuelTypes",
+      "vehicles",
+      "savedRoutes"
+    ]
+  },
+  "data": {
+    "organizations": [
+      {
+        "id": "org-main-chelyabinsk",
+        "fullName": "Общество с ограниченной ответственностью \"УралТранс-Челябинск\"",
+        "shortName": "ООО \"УралТранс-Челябинск\"",
+        "address": "454080, г. Челябинск, ул. Труда, д. 157",
+        "inn": "7453123456",
+        "kpp": "745301001",
+        "ogrn": "1157453001234",
+        "registrationDate": "2015-02-10",
+        "contactPerson": "Петров Петр Петрович",
+        "phone": "+7 (351) 222-33-44",
+        "email": "info@uraltrans-chel.ru",
+        "status": "Active",
+        "group": "Перевозчик"
+      },
+      {
+        "id": "org-med-expert",
+        "fullName": "Общество с ограниченной ответственностью \"МедЭксперт\"",
+        "shortName": "ООО \"МедЭксперт\"",
+        "address": "454091, г. Челябинск, пр. Ленина, д. 21",
+        "inn": "7451987654",
+        "kpp": "745101001",
+        "ogrn": "1187451005678",
+        "phone": "+7 (351) 777-88-99",
+        "email": "contact@medexpert74.ru",
+        "status": "Active",
+        "group": "Мед. учреждение",
+        "medicalLicenseNumber": "ЛО-74-01-005123",
+        "medicalLicenseIssueDate": "2020-08-15"
+      }
+    ],
+    "employees": [
+      {
+        "id": "emp-driver-ivanov",
+        "fullName": "Иванов Иван Иванович",
+        "shortName": "Иванов И.И.",
+        "employeeType": "driver",
+        "position": "Водитель-экспедитор",
+        "organizationId": "org-main-chelyabinsk",
+        "status": "Active",
+        "phone": "+7 (908) 123-45-67",
+        "address": "г. Челябинск, ул. Энтузиастов, д. 11, кв. 5",
+        "dateOfBirth": "1985-05-20",
+        "notes": "Опытный водитель, без вредных привычек.",
+        "licenseCategory": "B, C, CE",
+        "documentNumber": "74 15 123456",
+        "documentExpiry": "2028-10-15",
+        "snils": "123-456-789 00",
+        "personnelNumber": "00142",
+        "fuelCardNumber": "7001 1234 5678 9012",
+        "fuelCardBalance": 150.5,
+        "medicalCertificateSeries": "003-В/у",
+        "medicalCertificateNumber": "987654321",
+        "medicalCertificateIssueDate": "2023-11-01",
+        "medicalCertificateExpiryDate": "2026-10-31",
+        "dispatcherId": "emp-driver-ivanov",
+        "controllerId": "emp-driver-ivanov",
+        "medicalInstitutionId": "org-med-expert",
+        "driverCardType": "SKZI",
+        "driverCardNumber": "0123456789123456",
+        "driverCardStartDate": "2022-03-10",
+        "driverCardExpiryDate": "2025-03-09",
+        "email": "ivanov.ii@uraltrans-chel.ru"
+      }
+    ],
+    "fuelTypes": [
+      {
+        "id": "petrol-92",
+        "name": "АИ-92",
+        "code": "02",
+        "density": 0.735,
+        "unit": "л",
+        "notes": "Бензин автомобильный АИ-92"
+      },
+      {
+        "id": "petrol-95",
+        "name": "АИ-95",
+        "code": "03",
+        "density": 0.75,
+        "unit": "л",
+        "notes": "Бензин автомобильный АИ-95"
+      }
+    ],
+    "vehicles": [
+      {
+        "id": "veh-lada-granta-x123xx",
+        "plateNumber": "Х123ХХ174",
+        "brand": "Lada Granta",
+        "vin": "XTA219010F0987654",
+        "mileage": 75400,
+        "fuelTypeId": "petrol-92",
+        "fuelConsumptionRates": {
+          "summerRate": 8.5,
+          "winterRate": 10.2,
+          "cityIncreasePercent": 15
+        },
+        "assignedDriverId": "emp-driver-ivanov",
+        "organizationId": "org-main-chelyabinsk",
+        "currentFuel": 25.0,
+        "year": 2021,
+        "vehicleType": "Легковой",
+        "status": "Active",
+        "notes": "Служебный автомобиль для поездок по области",
+        "ptsType": "EPTS",
+        "eptsNumber": "164301123456789",
+        "diagnosticCardNumber": "012345678901234",
+        "diagnosticCardIssueDate": "2023-08-15",
+        "diagnosticCardExpiryDate": "2025-08-14",
+        "useCityModifier": true,
+        "useWarmingModifier": false,
+        "fuelTankCapacity": 50,
+        "disableFuelCapacityCheck": false,
+        "osagoSeries": "ХХХ",
+        "osagoNumber": "0123456789",
+        "osagoStartDate": "2023-09-01",
+        "osagoEndDate": "2024-08-31",
+        "storageLocationId": null
+      }
+    ],
+    "savedRoutes": [
+      {
+        "id": "route-chel-zlat",
+        "from": "г. Челябинск",
+        "to": "г. Златоуст",
+        "distanceKm": 150
+      },
+      {
+        "id": "route-zlat-chel",
+        "from": "г. Златоуст",
+        "to": "г. Челябинск",
+        "distanceKm": 150
+      }
+    ]
+  }
+}
