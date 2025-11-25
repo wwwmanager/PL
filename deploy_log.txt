@@ -47,3 +47,226 @@ added 258 packages in 45s
 [25.11.25 23:09:43,93]  
 [25.11.25 23:09:43,94] [5/7] Инициализация Git и первый коммит... 
 Initialized empty Git repository in C:/_PL_deploy/.git/
+warning: in the working copy of 'App.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'README.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'TESTING_GUIDE.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'components/Icons.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'components/about/About.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'components/admin/Admin.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'components/admin/BlankManagement.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'components/admin/BusinessAuditLog.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'components/admin/ControllerManagement.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'components/admin/Diagnostics.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'components/admin/DispatcherManagement.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'components/admin/ExportContextPackButton.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'components/admin/FuelTypeManagement.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'components/admin/ImportAuditLog.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'components/admin/MedicalInstitutionManagement.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'components/admin/OrganizationManagement.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'components/admin/RoleManagement.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'components/admin/UserManagement.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'components/admin/__tests__/Admin.test.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'components/admin/__tests__/AppSettingsComponent.test.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'components/auth/Login.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'components/dashboard/Dashboard.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'components/dictionaries/Dictionaries.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'components/dictionaries/GarageManagement.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'components/dictionaries/RouteImportModal.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'components/dictionaries/RouteManagement.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'components/dictionaries/StorageManagement.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'components/drivers/DriverList.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'components/employees/EmployeeList.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'components/help/AdminGuide.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'components/help/BusinessLogicGuide.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'components/help/BusinessLogicGuide.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'components/help/CapabilitiesGuide.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'components/help/DeveloperGuide.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'components/help/EmployeeList.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'components/help/TestingGuide.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'components/help/TestingGuide.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'components/help/UserGuide.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'components/help/UserGuideAdmin.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'components/reports/Reports.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'components/shared/CollapsibleSection.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'components/shared/ConfirmationModal.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'components/shared/Modal.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'components/vehicles/VehicleList.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'components/waybills/CorrectionModal.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'components/waybills/CorrectionReasonModal.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'components/waybills/PrintableWaybill.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'components/waybills/SeasonSettingsModal.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'components/waybills/WaybillCheckModal.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'components/waybills/WaybillDetail.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'components/waybills/WaybillList.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'constants.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'context-pack.skeleton.json', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'contexts/AuthContext.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'contexts/ToastContext.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'deploy_log.txt', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'hooks/useTable.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'hooks/useToast.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'import-data.json', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'index.html', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'index.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'metadata.json', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'package-lock.json', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'package.json', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'services/auditBusiness.test.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'services/auditBusiness.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'services/auditLog.test.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'services/auditLog.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'services/auth.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'services/bus.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'services/dbKeys.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'services/faker.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'services/geminiService.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'services/htmlParserService.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'services/mockApi.test.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'services/mockApi.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'services/rbac.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'services/repo.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'services/routeParserService.test.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'services/routeParserService.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'services/schemas.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'services/storage.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'services/waybillStatusMachine.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'setupTests.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/entities/audit-log/lib/storage.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/tests/smoke.test.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'tsconfig.json', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'types.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'utils/clone.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'utils/safeJSON.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'vite.config.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'vitest.config.ts', LF will be replaced by CRLF the next time Git touches it
+[main (root-commit) d43d3e5] Initial automated deploy
+ 99 files changed, 24302 insertions(+)
+ create mode 100644 .github/workflows/deploy.yml
+ create mode 100644 .gitignore
+ create mode 100644 App.tsx
+ create mode 100644 README.md
+ create mode 100644 TESTING_GUIDE.md
+ create mode 100644 components/Icons.tsx
+ create mode 100644 components/about/About.tsx
+ create mode 100644 components/admin/Admin.tsx
+ create mode 100644 components/admin/BlankManagement.tsx
+ create mode 100644 components/admin/BusinessAuditLog.tsx
+ create mode 100644 components/admin/ControllerManagement.tsx
+ create mode 100644 components/admin/Diagnostics.tsx
+ create mode 100644 components/admin/DispatcherManagement.tsx
+ create mode 100644 components/admin/ExportContextPackButton.tsx
+ create mode 100644 components/admin/FuelTypeManagement.tsx
+ create mode 100644 components/admin/ImportAuditLog.tsx
+ create mode 100644 components/admin/MedicalInstitutionManagement.tsx
+ create mode 100644 components/admin/OrganizationManagement.tsx
+ create mode 100644 components/admin/RoleManagement.tsx
+ create mode 100644 components/admin/UserManagement.tsx
+ create mode 100644 components/admin/__tests__/Admin.test.tsx
+ create mode 100644 components/admin/__tests__/AppSettingsComponent.test.tsx
+ create mode 100644 components/auth/Login.tsx
+ create mode 100644 components/dashboard/Dashboard.tsx
+ create mode 100644 components/dictionaries/Dictionaries.tsx
+ create mode 100644 components/dictionaries/GarageManagement.tsx
+ create mode 100644 components/dictionaries/RouteImportModal.tsx
+ create mode 100644 components/dictionaries/RouteManagement.tsx
+ create mode 100644 components/dictionaries/StorageManagement.tsx
+ create mode 100644 components/drivers/DriverList.tsx
+ create mode 100644 components/employees/EmployeeList.tsx
+ create mode 100644 components/help/AdminGuide.tsx
+ create mode 100644 components/help/BusinessLogicGuide.md
+ create mode 100644 components/help/BusinessLogicGuide.tsx
+ create mode 100644 components/help/CapabilitiesGuide.tsx
+ create mode 100644 components/help/DeveloperGuide.tsx
+ create mode 100644 components/help/EmployeeList.tsx
+ create mode 100644 components/help/TestingGuide.md
+ create mode 100644 components/help/TestingGuide.tsx
+ create mode 100644 components/help/UserGuide.tsx
+ create mode 100644 components/help/UserGuideAdmin.md
+ create mode 100644 components/reports/Reports.tsx
+ create mode 100644 components/shared/CollapsibleSection.tsx
+ create mode 100644 components/shared/ConfirmationModal.tsx
+ create mode 100644 components/shared/Modal.tsx
+ create mode 100644 components/vehicles/VehicleList.tsx
+ create mode 100644 components/waybills/CorrectionModal.tsx
+ create mode 100644 components/waybills/CorrectionReasonModal.tsx
+ create mode 100644 components/waybills/PrintableWaybill.tsx
+ create mode 100644 components/waybills/SeasonSettingsModal.tsx
+ create mode 100644 components/waybills/WaybillCheckModal.tsx
+ create mode 100644 components/waybills/WaybillDetail.tsx
+ create mode 100644 components/waybills/WaybillList.tsx
+ create mode 100644 constants.ts
+ create mode 100644 context-pack.skeleton.json
+ create mode 100644 contexts/AuthContext.tsx
+ create mode 100644 contexts/ToastContext.tsx
+ create mode 100644 deploy_log.txt
+ create mode 100644 hooks/useTable.ts
+ create mode 100644 hooks/useToast.ts
+ create mode 100644 import-data.json
+ create mode 100644 index.html
+ create mode 100644 index.tsx
+ create mode 100644 metadata.json
+ create mode 100644 package-lock.json
+ create mode 100644 package.json
+ create mode 100644 services/auditBusiness.test.ts
+ create mode 100644 services/auditBusiness.ts
+ create mode 100644 services/auditLog.test.ts
+ create mode 100644 services/auditLog.ts
+ create mode 100644 services/auth.tsx
+ create mode 100644 services/bus.ts
+ create mode 100644 services/dbKeys.ts
+ create mode 100644 services/faker.ts
+ create mode 100644 services/geminiService.ts
+ create mode 100644 services/htmlParserService.ts
+ create mode 100644 services/mockApi.test.ts
+ create mode 100644 services/mockApi.ts
+ create mode 100644 services/rbac.ts
+ create mode 100644 services/repo.ts
+ create mode 100644 services/routeParserService.test.ts
+ create mode 100644 services/routeParserService.ts
+ create mode 100644 services/schemas.ts
+ create mode 100644 services/storage.ts
+ create mode 100644 services/waybillStatusMachine.ts
+ create mode 100644 setupTests.ts
+ create mode 100644 src/entities/audit-log/lib/constants.ts
+ create mode 100644 src/entities/audit-log/lib/index.ts
+ create mode 100644 src/entities/audit-log/lib/storage.ts
+ create mode 100644 src/tests/smoke.test.ts
+ create mode 100644 start_deploy.bat
+ create mode 100644 tsconfig.json
+ create mode 100644 types.ts
+ create mode 100644 utils/clone.ts
+ create mode 100644 utils/safeJSON.ts
+ create mode 100644 vite.config.ts
+ create mode 100644 vitest.config.ts
+ create mode 100644 {
+ create mode 100644 "\320\277\321\203\321\202\320\265\320\262\321\213\320\265-\320\273\320\270\321\201\321\202\321\213 (61).zip"
+[25.11.25 23:09:44,44] [OK] Локальный репозиторий создан. 
+[25.11.25 23:09:44,45]  
+[25.11.25 23:09:44,46] [6/7] Создание репозитория 'wwwmanager/PL' на GitHub... 
+[25.11.25 23:09:44,47] Выполняю gh repo create... 
+https://github.com/wwwmanager/PL
+branch 'main' set up to track 'origin/main'.
+To https://github.com/wwwmanager/PL.git
+ * [new branch]      HEAD -> main
+[25.11.25 23:09:48,21] [OK] Репозиторий создан и код отправлен. 
+[25.11.25 23:09:48,22]  
+[25.11.25 23:09:48,23] [7/7] Настройка GitHub Pages на использование 'GitHub Actions'... 
+gh: Not Found (HTTP 404)
+[25.11.25 23:09:48,87] [ОШИБКА] Не удалось настроить GitHub Pages. 
+[25.11.25 23:09:48,88] Вам придется включить 'GitHub Actions' в 'Settings  вручную. 
+[25.11.25 23:09:48,89]  
+[25.11.25 23:09:48,90] ============================================== 
+[25.11.25 23:09:48,91]                    
+[25.11.25 23:09:48,91] ============================================== 
+[25.11.25 23:09:48,92] Что произошло: 
+[25.11.25 23:09:48,93] 1. Все утилиты (Git, Node, GH CLI) установлены/проверены. 
+[25.11.25 23:09:48,94] 2. Исходники распакованы, файлы конфига добавлены. 
+[25.11.25 23:09:48,95] 3. Создан репозиторий: https://github.com/wwwmanager/PL 
+[25.11.25 23:09:48,96] 4. Код отправлен, и Action 'Deploy to GitHub Pages' запущен. 
+[25.11.25 23:09:48,97] 5. Настройки Pages установлены на 'GitHub Actions' (или выдано предупреждение). 
+[25.11.25 23:09:48,98]  
+[25.11.25 23:09:48,99] Просто подождите 2-3 минуты. Ваш сайт будет доступен по адресу: 
+[25.11.25 23:09:49,00] https://wwwmanager.github.io/PL/ 
+[25.11.25 23:09:49,01] (Можете следить за прогрессом на вкладке 'Actions' в репозитории) 
+[25.11.25 23:09:49,02]  
+[25.11.25 23:09:49,03] Лог файл: deploy_log.txt 
