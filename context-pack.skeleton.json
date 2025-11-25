@@ -1,0 +1,34 @@
+{
+  "meta": {
+    "packVersion": "1.0",
+    "description": "Базовый пакет контекста для системы путевых листов. Включает справочники и последние 10 путевых листов.",
+    "createdAt": "$TIMESTAMP"
+  },
+  "data": {
+    "vehicles": {
+      "source": "vehicles",
+      "query": "all"
+    },
+    "employees": {
+      "source": "employees",
+      "query": "all"
+    },
+    "organizations": {
+      "source": "organizations",
+      "query": "all"
+    },
+    "fuelTypes": {
+      "source": "fuelTypes",
+      "query": "all"
+    },
+    "savedRoutes": {
+      "source": "savedRoutes",
+      "query": "all"
+    },
+    "waybills": {
+      "source": "waybills",
+      "query": "latest",
+      "limit": 10
+    }
+  }
+}

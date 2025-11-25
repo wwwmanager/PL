@@ -1,0 +1,1 @@
+export const UNKNOWN_STORAGE_PREFIX = 'compat:unknown:';
