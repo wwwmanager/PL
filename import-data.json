@@ -1,0 +1,184 @@
+
+{
+  "meta": {
+    "app": "waybill-app",
+    "formatVersion": 2,
+    "createdAt": "2024-05-20T09:00:00.000Z",
+    "appVersion": "1.0.0",
+    "keys": [
+      "organizations",
+      "employees",
+      "fuelTypes",
+      "vehicles",
+      "savedRoutes"
+    ]
+  },
+  "data": {
+    "fuelTypes": [
+      {
+        "id": "fuel-ai92",
+        "name": "АИ-92",
+        "code": "92",
+        "density": 0.735,
+        "unit": "л"
+      },
+      {
+        "id": "fuel-ai95",
+        "name": "АИ-95",
+        "code": "95",
+        "density": 0.750,
+        "unit": "л"
+      },
+      {
+        "id": "fuel-dt",
+        "name": "ДТ",
+        "code": "dt",
+        "density": 0.850,
+        "unit": "л"
+      }
+    ],
+    "organizations": [
+      {
+        "id": "org-head-moscow",
+        "fullName": "Общество с ограниченной ответственностью \"ТрансЛогистик-Групп\"",
+        "shortName": "ООО \"ТрансЛогистик-Групп\"",
+        "address": "123001, г. Москва, ул. Садовая-Кудринская, д. 11, стр. 1",
+        "inn": "7701234567",
+        "kpp": "770101001",
+        "ogrn": "1157746001234",
+        "registrationDate": "2010-05-15",
+        "contactPerson": "Генералов Иван Сергеевич",
+        "phone": "+7 (495) 123-44-55",
+        "email": "hq@translogistic-group.ru",
+        "status": "Active",
+        "group": "Заказчик",
+        "parentOrganizationId": null
+      },
+      {
+        "id": "org-branch-ural",
+        "fullName": "Филиал ООО \"ТрансЛогистик-Групп\" в г. Екатеринбург",
+        "shortName": "Филиал \"Урал\"",
+        "address": "620000, г. Екатеринбург, ул. Ленина, д. 50, оф. 305",
+        "inn": "7701234567",
+        "kpp": "667145001",
+        "ogrn": "1157746001234",
+        "contactPerson": "Смирнова Ольга Владимировна",
+        "phone": "+7 (343) 222-33-44",
+        "email": "ekb@translogistic-group.ru",
+        "status": "Active",
+        "group": "Перевозчик",
+        "parentOrganizationId": "org-head-moscow"
+      },
+      {
+        "id": "org-med-clinic5",
+        "fullName": "Государственное бюджетное учреждение здравоохранения \"Городская поликлиника №5\"",
+        "shortName": "ГБУЗ \"ГП №5\"",
+        "address": "620100, г. Екатеринбург, ул. Московская, д. 1",
+        "inn": "6661001234",
+        "kpp": "666101001",
+        "ogrn": "1026600001122",
+        "status": "Active",
+        "group": "Мед. учреждение",
+        "medicalLicenseNumber": "ЛО-66-01-003456",
+        "medicalLicenseIssueDate": "2019-09-10"
+      }
+    ],
+    "employees": [
+      {
+        "id": "emp-driver-smirnov",
+        "fullName": "Смирнов Алексей Петрович",
+        "shortName": "Смирнов А.П.",
+        "employeeType": "driver",
+        "position": "Водитель-экспедитор",
+        "organizationId": "org-branch-ural",
+        "status": "Active",
+        "phone": "+7 (912) 345-67-89",
+        "address": "г. Екатеринбург, ул. Щорса, д. 105, кв. 42",
+        "dateOfBirth": "1988-03-12",
+        "licenseCategory": "B, B1",
+        "documentNumber": "66 12 345678",
+        "documentExpiry": "2029-03-12",
+        "snils": "112-233-445 99",
+        "personnelNumber": "EK-0042",
+        "fuelCardNumber": "7001 5555 4444 3333",
+        "fuelCardBalance": 45.0,
+        "medicalCertificateSeries": "45АА",
+        "medicalCertificateNumber": "0012345",
+        "medicalCertificateIssueDate": "2023-10-01",
+        "medicalCertificateExpiryDate": "2024-10-01",
+        "medicalInstitutionId": "org-med-clinic5",
+        "email": "smirnov.driver@mail.ru",
+        "dispatcherId": "emp-disp-ekb",
+        "controllerId": "emp-mech-ekb"
+      },
+      {
+        "id": "emp-disp-ekb",
+        "fullName": "Петрова Мария Ивановна",
+        "shortName": "Петрова М.И.",
+        "employeeType": "dispatcher",
+        "position": "Диспетчер",
+        "organizationId": "org-branch-ural",
+        "status": "Active"
+      },
+      {
+        "id": "emp-mech-ekb",
+        "fullName": "Сидоров Иван Кузьмич",
+        "shortName": "Сидоров И.К.",
+        "employeeType": "controller",
+        "position": "Механик КТП",
+        "organizationId": "org-branch-ural",
+        "status": "Active"
+      }
+    ],
+    "vehicles": [
+      {
+        "id": "veh-lada-granta",
+        "plateNumber": "А 123 АА 196",
+        "brand": "Lada Granta",
+        "vin": "XTA219000H0123456",
+        "mileage": 87500,
+        "fuelTypeId": "fuel-ai95",
+        "fuelConsumptionRates": {
+          "summerRate": 7.8,
+          "winterRate": 9.5,
+          "cityIncreasePercent": 10,
+          "warmingIncreasePercent": 5
+        },
+        "assignedDriverId": "emp-driver-smirnov",
+        "organizationId": "org-branch-ural",
+        "currentFuel": 15.0,
+        "year": 2017,
+        "vehicleType": "Легковой",
+        "status": "Active",
+        "notes": "Служебный автомобиль филиала",
+        "ptsType": "PTS",
+        "ptsSeries": "66 НК",
+        "ptsNumber": "123456",
+        "diagnosticCardNumber": "12345678901234567890",
+        "diagnosticCardIssueDate": "2023-11-20",
+        "diagnosticCardExpiryDate": "2024-11-20",
+        "fuelTankCapacity": 50,
+        "useCityModifier": true,
+        "useWarmingModifier": true,
+        "osagoSeries": "XXX",
+        "osagoNumber": "0345678901",
+        "osagoStartDate": "2023-12-01",
+        "osagoEndDate": "2024-11-30"
+      }
+    ],
+    "savedRoutes": [
+      {
+        "id": "route-office-warehouse",
+        "from": "Офис (ул. Ленина 50)",
+        "to": "Склад (ул. Монтажников 4)",
+        "distanceKm": 12.5
+      },
+      {
+        "id": "route-warehouse-office",
+        "from": "Склад (ул. Монтажников 4)",
+        "to": "Офис (ул. Ленина 50)",
+        "distanceKm": 12.5
+      }
+    ]
+  }
+}
