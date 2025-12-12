@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "packVersion": "2.0",
+    "description": "Полный пакет контекста для AI. Включает справочники, настройки, состояние склада, шин и последние документы.",
+    "createdAt": "$TIMESTAMP"
+  },
+  "data": {
+    "appSettings": {
+      "source": "appSettings_v1",
+      "query": "single"
+    },
+    "seasonSettings": {
+      "source": "seasonSettings",
+      "query": "single"
+    },
+    "organizations": {
+      "source": "organizations",
+      "query": "all"
+    },
+    "vehicles": {
+      "source": "vehicles",
+      "query": "all"
+    },
+    "employees": {
+      "source": "employees",
+      "query": "all"
+    },
+    "fuelTypes": {
+      "source": "fuelTypes",
+      "query": "all"
+    },
+    "savedRoutes": {
+      "source": "savedRoutes",
+      "query": "all"
+    },
+    "stockItems": {
+      "source": "garageStockItems_v1",
+      "query": "all"
+    },
+    "tires": {
+      "source": "tires_v1",
+      "query": "all"
+    },
+    "waybills": {
+      "source": "waybills",
+      "query": "latest",
+      "limit": 15
+    },
+    "stockTransactions": {
+      "source": "stockTransactions_v1",
+      "query": "latest",
+      "limit": 20
+    }
+  }
+}
