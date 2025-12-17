@@ -1,0 +1,54 @@
+[17.12.25 18:45:48,80] == Начало выполнения скрипта == 
+[17.12.25 18:45:48,80] ============================================== 
+[17.12.25 18:45:48,81]   Автоматический деплой проекта на GitHub 
+[17.12.25 18:45:48,82]   Репозиторий: wwwmanager/PL 
+[17.12.25 18:45:48,83] ============================================== 
+[17.12.25 18:45:48,83]  
+[17.12.25 18:45:48,84] [1/7] Проверка системных утилит... 
+[17.12.25 18:45:48,89] [OK] Установщик 'winget' найден. 
+[17.12.25 18:45:48,94] [OK] Git найден. 
+[17.12.25 18:45:49,00] [OK] Node.js (npm) найден. 
+[17.12.25 18:45:49,05] [OK] GitHub CLI найден. 
+[17.12.25 18:45:49,05] Проверка аутентификации GitHub CLI... 
+github.com
+  ✓ Logged in to github.com account wwwmanager (keyring)
+  - Active account: true
+  - Git operations protocol: https
+  - Token: gho_************************************
+  - Token scopes: 'gist', 'read:org', 'repo', 'workflow'
+[17.12.25 18:45:49,69] [OK] Вы уже аутентифицированы. 
+[17.12.25 18:45:49,70]  
+[17.12.25 18:45:49,71] [2/7] Поиск и распаковка архива '*.zip'... 
+[17.12.25 18:45:49,71] Распаковка во временную папку: c:\_PL_deploy\temp_extract_6229 
+[17.12.25 18:45:51,77] Проект найден в подпапке: c:\_PL_deploy\temp_extract_6229\PL_PORT-main 
+[17.12.25 18:45:51,77] Перемещение файлов проекта в корень... 
+[17.12.25 18:45:52,15] [OK] Исходники проекта извлечены. 
+[17.12.25 18:45:52,15]  
+[17.12.25 18:45:52,16] [3/7] Внедрение файлов .gitignore, vite.config.ts и deploy.yml... 
+[17.12.25 18:45:52,17] Создание .gitignore... 
+[17.12.25 18:45:52,18] Создание vite.config.ts... 
+[17.12.25 18:45:52,19] Создание .github/workflows/deploy.yml... 
+[17.12.25 18:45:52,21] [OK] Все 3 файла успешно созданы. 
+[17.12.25 18:45:52,22]  
+[17.12.25 18:45:52,23] [4/7] Установка зависимостей (npm install)... 
+[17.12.25 18:45:52,23] Это создаст правильный package-lock.json. Может занять 1-2 минуты... 
+npm warn deprecated node-domexception@1.0.0: Use your platform's native DOMException instead
+
+added 347 packages, and audited 348 packages in 55s
+
+67 packages are looking for funding
+  run `npm fund` for details
+
+5 vulnerabilities (4 moderate, 1 high)
+
+To address all issues possible (including breaking changes), run:
+  npm audit fix --force
+
+Some issues need review, and may require choosing
+a different dependency.
+
+Run `npm audit` for details.
+[17.12.25 18:46:47,12] [OK] Зависимости установлены, package-lock.json создан. 
+[17.12.25 18:46:47,13]  
+[17.12.25 18:46:47,14] [5/7] Инициализация Git и первый коммит... 
+Initialized empty Git repository in C:/_PL_deploy/.git/
